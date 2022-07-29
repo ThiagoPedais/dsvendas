@@ -1,14 +1,11 @@
 import BarChart from "../../components/BarChart";
 import DataTable from "../../components/DataTable";
 import DonutChart from "../../components/DonutChart";
-import Footer from "../../components/Footer";
-import Navbar from "../../components/Navbar";
 
 
 export default function Dashboard() {
   return (
-    <>
-      <Navbar />
+    <>      
       <div className="container">
         <h1 className="text-primary py-3">Dashboard de vendas</h1>
 
@@ -28,8 +25,7 @@ export default function Dashboard() {
           <h5 className="text-primary">Todas as vendas</h5>
         </div>
         <DataTable />
-      </div>
-      <Footer />
+      </div>      
     </>
   )
 }

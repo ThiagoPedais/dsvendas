@@ -1,5 +1,6 @@
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Dashboard from "./pages/Dashboard";
 import Home from "./pages/Home";
@@ -12,6 +13,7 @@ export default function RoutesSystem() {
                 <Route path="/" element={<Home />} />
                 <Route path="/dashboard" element={<Dashboard />} />
             </Routes>
+            <Footer />
         </BrowserRouter>
     )
 }
